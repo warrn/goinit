@@ -1,2 +1,8 @@
 package: github.com/warrn/goinit
-import: []
+import:
+- package: github.com/stretchr/testify
+  version: ^1.2.1
+  subpackages:
+  - assert
+- package: github.com/go-bindata/go-bindata
+  version: ^1.0.0
